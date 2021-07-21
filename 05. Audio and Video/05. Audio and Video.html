@@ -6,13 +6,17 @@
   </head>
   <body>
 
-    <!-- Defines sound content -->
+    <!-- <audio> - Defines sound content -->
+    <audio src="" controls autoplay loop muted preload="auto">
 
-    <!-- Defines multiple media resources for media elements (<video>, <audio> and <picture>) -->
+    </audio>
+    <!-- <source> - Defines multiple media resources for media elements (<video>, <audio> and <picture>) -->
+    <source src="https://" type="video/mp4">
+    <!-- <track> - Defines text tracks for media elements guna untuk video(subtitle) (<video> and <audio>) -->
+    <track kind="subtitles" src="sampleSubtitles_en.srt" srclang="en">
+    <!-- <video> - Defines a video or movie-->
+    <video src="videofile.ogg" autoplay poster="posterimage.jpg" controls autoplay loop muted>
 
-    <!-- Defines text tracks for media elements (<video> and <audio>) -->
-
-    <!-- Defines a video or movie-->
-
+    </video>
   </body>
 </html>
